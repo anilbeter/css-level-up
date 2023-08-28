@@ -44,4 +44,6 @@ body {
   left: 40px;
 }
 
-.logo {}
+.logo {
+  height: 35px;
+}
