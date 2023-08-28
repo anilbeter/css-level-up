@@ -31,6 +31,17 @@ body {
   background-size: cover;
   background-position: top;
 
+  /* logo-box class'ının positionu absolute yaptıgım icin parent elementi (yani headerı) position: relative yapmak zorundayım. artık .header a göre referans alıcak, bu logo-box için orijin gibi bi şey oldu */
+  position: relative;
+
   /* rectangle corners, starts left top and goes clockwise direction */
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {}
