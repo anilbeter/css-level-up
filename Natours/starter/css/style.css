@@ -50,8 +50,11 @@ body {
 
 .text-box {
   position: absolute;
+  /* top and left relation to the parent element */
   top: 40%;
   left: 50%;
+
+  /* -50%, -50% --> they relation to the element itself */
   transform: translate(-50%, -50%);
 }
 
