@@ -30,4 +30,7 @@ body {
     url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
+
+  /* rectangle corners, starts left top and goes clockwise direction */
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
