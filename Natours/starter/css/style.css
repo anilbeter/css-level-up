@@ -134,6 +134,7 @@ body {
   cursor: pointer;
   border-radius: 100px;
   transition: all 0.2s;
+  position: relative;
 }
 
 .btn:hover {
@@ -163,6 +164,9 @@ body {
   width: 100%;
   /* 100% of the width of the button */
   border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .btn-white::after {
