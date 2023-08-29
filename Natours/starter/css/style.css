@@ -154,3 +154,17 @@ body {
   background-color: #fff;
   color: #777;
 }
+
+/* this pseudo element treated like a child of the button */
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  /* 100% of the width of the button */
+  border-radius: 100px;
+}
+
+.btn-white::after {
+  background-color: #fff;
+}
