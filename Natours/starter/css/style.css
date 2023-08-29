@@ -132,6 +132,8 @@ body {
   padding: 15px 40px;
   display: inline-block;
   cursor: pointer;
+  border-radius: 100px;
+  transition: all 0.2s;
 }
 
 .btn:hover {
