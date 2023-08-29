@@ -134,6 +134,16 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/* hover ile alakası yok bunun, hover 3px yukarı çıkıyor basınca -1px daha çıkıyor diye düşünme hoverdan alakasız. .btn:link in kendisi ile bağlantılı. ilk durum orijin ise hover 3px yukarı çıkartırken active 1px yukarı çıkartıyor */
+.btn:active {
+  transform: translateY(-1px);
+}
+
+
 .btn-white {
   background-color: #fff;
   color: #777;
