@@ -54,6 +54,8 @@ body {
   top: 40%;
   left: 50%;
 
+  text-align: center;
+
   /* -50%, -50% --> they relation to the element itself */
   transform: translate(-50%, -50%);
 }
